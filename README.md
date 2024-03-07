@@ -1,3 +1,3 @@
-# full-react-course testing
+# full-react-course
 
 react course with best coding practises
