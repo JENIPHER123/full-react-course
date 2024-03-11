@@ -1,6 +1,7 @@
 import "./App.css";
 import FunctionComponent from "./components/functioncomponent";
 import { ClassComp, ClassComp2 } from "./components/classcomponent";
+import { Clicked } from "./components/click";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <FunctionComponent></FunctionComponent>
       <ClassComp></ClassComp>
       <ClassComp2></ClassComp2>
+      <Clicked></Clicked>
     </div>
   );
 }
