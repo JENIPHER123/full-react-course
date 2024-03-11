@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import UpdateComp from "./nestingcomponents";
 export class CountHover extends Component {
   constructor(props) {
     super(props);
@@ -15,9 +15,10 @@ export class CountHover extends Component {
     return (
       <div>
         <button onMouseEnter={this.IncrementCount}>
-          Hover over {count} times
+          {this.props.name} 1 Hover over {count} times
         </button>
       </div>
     );
   }
 }
+export default UpdateComp(CountHover);
